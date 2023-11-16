@@ -21,7 +21,7 @@ a {
 
 .header-logo {
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 header {
@@ -69,7 +69,7 @@ header {
 
 .main-text {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .hero-img {
@@ -86,7 +86,8 @@ button {
   background-color: #3882f6;
   border-radius: 8px;
   color: #f9faf8;
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* Info Section */
@@ -99,7 +100,7 @@ button {
   text-align: center;
   margin-bottom: 32px;
   color: #1f2937;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 36px;
 }
 
@@ -133,3 +134,62 @@ button {
 }
 
 /* Quote */
+
+.quote {
+  padding: 7em 20em;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f2937;
+}
+
+.quote .sentence {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.quote .people {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* CTA */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 14.5em;
+}
+
+.cta .container-cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.cta-left .cta-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-right .btn-cta {
+  border: 2px solid #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
